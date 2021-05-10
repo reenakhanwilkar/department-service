@@ -1,0 +1,14 @@
+package com.roc.departments.entity;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Department {
+
+
+    private Long Id;
+    private String deptName;
+    private String deptAddress;
+    private String depTCode;
+
+}

@@ -1,0 +1,12 @@
+package com.roc.departments.entity;
+
+@Entity
+public class Department {
+
+
+    private Long Id;
+    private String deptName;
+    private String deptAddress;
+    private String depTCode;
+
+}
